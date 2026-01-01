@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProAuto Workshop</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>ProAuto Workshop</h1>
+    <ul>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#appointment">Book Appointment</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="hero">
+    <h2>Your Trusted Auto Repair Experts</h2>
+    <p>Fast, Reliable, and Affordable Auto Services</p>
+    <a href="#services" class="btn">Our Services</a>
+  </div>
+</header>
+
+<section id="services" class="services">
+  <h2>Our Services</h2>
+  <div class="service-list" id="serviceList">
+    <!-- Services will be injected here -->
+  </div>
+</section>
+
+<section id="appointment" class="appointment">
+  <h2>Book an Appointment</h2>
+  <form id="appointmentForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <input type="text" id="car" placeholder="Car Model" required>
+    <input type="date" id="date" required>
+    <button type="submit" class="btn">Book Now</button>
+  </form>
+  <p id="formMessage"></p>
+</section>
+
+<footer id="contact">
+  <p>Contact us: info@proautoworkshop.com | +234 801 234 5678</p>
+  <p>© 2026 ProAuto Workshop. All Rights Reserved.</p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
